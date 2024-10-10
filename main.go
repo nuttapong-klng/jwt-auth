@@ -29,7 +29,7 @@ func main() {
 	port := os.Getenv("PORT")
 	// Elastic Beanstalk forwards requests to port 5000
 	if port == "" {
-		port = "5000"
+		port = "5002"
 	}
 	server.Run(":" + port)
 
